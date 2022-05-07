@@ -160,9 +160,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         setcookie('about_error', '', 100000);
         setcookie('check_error', '', 100000);
     }
-    $user = 'u47522';
-    $pass = '7677055';
-    $db = new PDO('mysql:host=localhost;dbname=u47522', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+    $user = 'u47531';
+    $pass = '7833721';
+    $db = new PDO('mysql:host=localhost;dbname=u47531', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
     $fio = $_POST['fio'];
     $email = $_POST['email'];
     $date = $_POST['date'];
